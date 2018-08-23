@@ -1,5 +1,8 @@
 # Compiled class file
 *.class
+*.settings
+# maven target
+target
 
 # Log file
 *.log

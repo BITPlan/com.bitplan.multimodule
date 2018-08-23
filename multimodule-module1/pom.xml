@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<name>Multi-Module 1</name>
+	<description>submodule 1 of com.bitplan.multimodule</description>
+
+	<parent>
+		<groupId>com.bitplan.multimodule</groupId>
+		<artifactId>com.bitplan.multimodule</artifactId>
+		<version>0.0.1</version>
+	</parent>
+	<artifactId>multimodule1</artifactId>
+	<packaging>jar</packaging>
+</project>
