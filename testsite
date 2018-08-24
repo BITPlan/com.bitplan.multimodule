@@ -1,0 +1,18 @@
+#!/bin/bash
+# WF 2018-08-24
+
+# prepare to log the mvn site command
+sitelog=/tmp/sitelog$$.txt
+
+# create an empty staging area
+stage=/tmp/stage
+rm -rf $stage
+mkdir -p $stage/4site
+
+# run the staging of the site against this directory and log the results
+mvn -U clean install site site:stage -DstagingDirectory=$stage/4site | tee $sitelog
+
+# what url did we set for the site in distributionManagement?
+cat ../com.bitplan.pom/pom.xml | xml2 | grep  /project/distributionManagement/site/url 
+# and where did the results go?
+egrep "(Pushing|to file)"  $sitelog
