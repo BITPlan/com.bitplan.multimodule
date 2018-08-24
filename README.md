@@ -2,7 +2,7 @@
 [Test-Project for a Multi-Module release](http://www.bitplan.com/OpenSource) 
 
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.bitplan.multimodule/com.bitplan.multimodule.svg)](https://search.maven.org/artifact/com.bitplan.multimodule/com.bitplan.multimodule/0.0.1/jar)
+[![Maven Central](https://img.shields.io/maven-central/v/com.bitplan.multimodule/com.bitplan.multimodule.svg)](https://search.maven.org/artifact/com.bitplan.multimodule/com.bitplan.multimodule/0.0.2/jar)
 [![GitHub issues](https://img.shields.io/github/issues/BITPlan/com.bitplan.multimodule.svg)](https://github.com/BITPlan/com.bitplan.multimodule/issues)
 [![GitHub issues](https://img.shields.io/github/issues-closed/BITPlan/com.bitplan.multimodule.svg)](https://github.com/BITPlan/com.bitplan.multimodule/issues/?q=is%3Aissue+is%3Aclosed)
 [![GitHub](https://img.shields.io/github/license/BITPlan/com.bitplan.multimodule.svg)](https://www.apache.org/licenses/LICENSE-2.0)
@@ -20,11 +20,11 @@ Maven dependency
 <dependency>
   <groupId>com.bitplan.multimodule</groupId>
   <artifactId>com.bitplan.multimodule</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
 </dependency>
 ```
 
-[Current release at repo1.maven.org](http://repo1.maven.org/maven2/com/bitplan/multimodule/com.bitplan.multimodule/0.0.1/)
+[Current release at repo1.maven.org](http://repo1.maven.org/maven2/com/bitplan/multimodule/com.bitplan.multimodule/0.0.2/)
 
 ### How to build
 ```

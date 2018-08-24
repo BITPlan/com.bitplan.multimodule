@@ -24,6 +24,11 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+/**
+ * Junit test for multi module 2
+ * @author wf
+ *
+ */
 public class TestMain {
 
   @Test

@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>com.bitplan.pom</groupId>
 		<artifactId>com.bitplan.pom</artifactId>
-		<version>0.0.11</version>
+		<version>0.0.12</version>
 		<relativePath>../com.bitplan.pom/pom.xml</relativePath>
 	</parent>
 	<groupId>com.bitplan.multimodule</groupId>
 	<artifactId>com.bitplan.multimodule</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<name>Multi-Module</name>
 	<description>Test-Project for a Multi-Module release</description>
 	<properties>
@@ -18,6 +18,9 @@
 		<github.project>com.bitplan.multimodule</github.project>
 		<!-- for README.md generation -->
 		<documentation.wiki>http://www.bitplan.com/OpenSource</documentation.wiki>
+		<!--  activate parent profiles ... -->
+		<createJar>true</createJar>
+		<createTestJar>true</createTestJar>
 	</properties>
 	<packaging>pom</packaging>
 	<modules>
@@ -29,38 +32,11 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>${junit4.version}</version>
-			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<artifactId>hamcrest-core</artifactId>
-					<groupId>org.hamcrest</groupId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-all -->
 		<dependency>
 			<groupId>org.hamcrest</groupId>
 			<artifactId>hamcrest-all</artifactId>
-			<version>1.3</version>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<build>
-		<plugins>
-			<!-- potentially share test jars -->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>${maven-jar-plugin.version}</version>
-				<executions>
-					<execution>
-						<goals>
-							<goal>test-jar</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
-	</build>
 </project>
