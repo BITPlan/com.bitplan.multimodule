@@ -1,7 +1,7 @@
 ### com.bitplan.multimodule
 [Test-Project for a Multi-Module release](http://www.bitplan.com/OpenSource) 
 
-
+[![Travis (.org)](https://img.shields.io/travis/BITPlan/com.bitplan.multimodule.svg)](https://travis-ci.org/BITPlan/com.bitplan.multimodule)
 [![Maven Central](https://img.shields.io/maven-central/v/com.bitplan.multimodule/com.bitplan.multimodule.svg)](https://search.maven.org/artifact/com.bitplan.multimodule/com.bitplan.multimodule/0.0.2/jar)
 [![GitHub issues](https://img.shields.io/github/issues/BITPlan/com.bitplan.multimodule.svg)](https://github.com/BITPlan/com.bitplan.multimodule/issues)
 [![GitHub issues](https://img.shields.io/github/issues-closed/BITPlan/com.bitplan.multimodule.svg)](https://github.com/BITPlan/com.bitplan.multimodule/issues/?q=is%3Aissue+is%3Aclosed)
@@ -38,3 +38,4 @@ mvn install
 | version | date       | changes
 | ------- | ---------- | --------------------------------
 | 0.0.1   | 2018-08-23 | initial state to test multimodule - handling
+| 0.0.2   | 2018-08-24 | adds jar release and travis support 
