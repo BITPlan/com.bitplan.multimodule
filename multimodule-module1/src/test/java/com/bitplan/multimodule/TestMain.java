@@ -34,8 +34,8 @@ public class TestMain {
   @Test
   public void testMain() {
     String args[]= {""};
-    Main.main(args);
-    assertTrue(Main.called);
+    Main1.main(args);
+    assertTrue(Main1.called);
   }
 
 }

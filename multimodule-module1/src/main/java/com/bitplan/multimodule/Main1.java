@@ -21,14 +21,25 @@
 package com.bitplan.multimodule;
 
 /**
- * interface example for the multimodule handling test project
+ * just a dummy main routine
  * @author wf
  *
  */
-public interface Main {
+public class Main1 implements Main {
+  public static boolean called=false;
   /**
-   * to be called from the static main routine
-   * @param args - any command line arguments
+   * 
    */
-  public void callit(String args[]);
+  public void callit(String args[]) {
+    called=true;
+  }
+ 
+  /**
+   * callable from command line
+   * @param args
+   */
+  public static void main(String args[]) {
+    Main main=new Main1();
+    main.callit(args);
+  }
 }

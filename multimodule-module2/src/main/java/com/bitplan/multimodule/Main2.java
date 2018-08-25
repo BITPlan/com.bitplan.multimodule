@@ -25,13 +25,22 @@ package com.bitplan.multimodule;
  * @author wf
  *
  */
-public class Main {
+public class Main2 extends Main1 {
   public static boolean called=false;
+  /**
+   * 
+   */
+  public void callit(String args[]) {
+    super.callit(args);
+    called=true;
+  }
+ 
   /**
    * callable from command line
    * @param args
    */
   public static void main(String args[]) {
-    called=true;
+    Main main2=new Main2();
+    main2.callit(args);
   }
 }
