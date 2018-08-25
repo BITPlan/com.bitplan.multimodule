@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>com.bitplan.pom</groupId>
 		<artifactId>com.bitplan.pom</artifactId>
-		<version>0.0.12</version>
+		<version>0.0.13</version>
 		<relativePath>../com.bitplan.pom/pom.xml</relativePath>
 	</parent>
 	<groupId>com.bitplan.multimodule</groupId>
 	<artifactId>com.bitplan.multimodule</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<name>Multi-Module</name>
 	<description>Test-Project for a Multi-Module release</description>
 	<properties>

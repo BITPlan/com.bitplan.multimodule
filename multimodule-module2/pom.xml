@@ -9,7 +9,7 @@
 	<parent>
 		<groupId>com.bitplan.multimodule</groupId>
 		<artifactId>com.bitplan.multimodule</artifactId>
-		<version>0.0.2</version>
+		<version>0.0.3</version>
 	</parent>
 	<artifactId>multimodule2</artifactId>
 	<packaging>jar</packaging>
@@ -17,7 +17,7 @@
 		<dependency>
 			<groupId>com.bitplan.multimodule</groupId>
 			<artifactId>multimodule1</artifactId>
-			<version>0.0.2</version>
+			<version>0.0.3</version>
 		</dependency>
 	</dependencies>
 </project>
