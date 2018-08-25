@@ -12,7 +12,7 @@
 * [Wiki](http://www.bitplan.com/OpenSource)
 * [com.bitplan.multimodule Project pages](https://BITPlan.github.io/com.bitplan.multimodule)
 * [Javadoc](https://BITPlan.github.io/com.bitplan.multimodule/com.bitplan.multimodule/com.bitplan.multimodule/apidocs/index.html)
-* [Test-Report ](https://BITPlan.github.io/com.bitplan.multimodule/surefire-report.html)
+* [Test-Report ](https://BITPlan.github.io/com.bitplan.multimodule/com.bitplan.multimodule/com.bitplan.multimodule/surefire-report.html)
 ### Maven dependency
 
 Maven dependency
@@ -39,3 +39,4 @@ mvn install
 | ------- | ---------- | --------------------------------
 | 0.0.1   | 2018-08-23 | initial state to test multimodule - handling
 | 0.0.2   | 2018-08-24 | adds jar release and travis support 
+| 0.0.3   | 2018-08-25 | adds aggregated reports 
